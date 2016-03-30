@@ -13,7 +13,6 @@ var parentnode = document.getElementById('listitem');
 
 window.onload = setting();
 function setting(){
-    console.log(parentnode.hasChildNodes());
    if(parentnode.hasChildNodes()){
      document.getElementById('clear').style.display="inline-block";
     document.getElementById('submit').style.display="inline-block";
@@ -119,11 +118,9 @@ function submitvalue(){
     var listarray = [];
     for(nodecount=0; nodecount<nodelistlength; nodecount++){
          var add = nodelist[nodecount].textContent;
-         console.log(add);
          listarray.push(add);
          console.log(listarray);//could see the array of the input list elements in the browser console.
          document.getElementById('list').value = listarray;
-         console.log(document.getElementById('list').value);
          console.log(typeof document.getElementById('list').value);/*if we put this array value into a input box, the type of this array will
                                                                      change into string, as we could see in the cosole. Therefore, in order to submit
                                                                      the listelement's value as an array, i have to put each of them into a hidden input box
