@@ -24,7 +24,7 @@
     into a hidden input box, which makes it possible to be submitted by the form. If you look at the developer tools within the browser 
     and check the form data in the network section, the submitted value could be seen in there, actually it is submitted as a big array if you look at from the backend, 
     an array element here is one value inside one input box.
-![download](img/1.png)
+![download](images/1.png)
   - Also, I tried another way to make it looks clearer.I pushed the value in each hidden input box of the list elements into an array
     called list, and I console log this array so you could see the value in an array format in the console of the browser. After that i put this array
     into a input box of the form, yet when user submit it, the array in the input box would be transferring into a string value, so the first one would be
