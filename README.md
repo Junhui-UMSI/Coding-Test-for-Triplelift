@@ -8,9 +8,10 @@
 	- SUBMIT: On form submit, the list elements should be submitted as an array.
 
 # My solution
-- SETTINGS: Initially, there is only an empty input box and an add button. After user clicks on add button and add the value user put into 
-   the inpiut box into the list. The delete, clear and submit button will show up. After user clear all the value or submit all the value, 
-   the delete,clear and submit button will disappear as well.
+- SETTINGS: Initially, there is only an empty input box and an add button.
+  ![download](images/5.png)
+After user clicks on add button and add the value user put into the inpiut box into the list. The delete, clear and submit button will show up. After user clear all the value or submit all the value, the delete,clear and submit button will disappear as well.
+![download](images/4.png)
    
 - ADD: If the user enters text to the input box, clicking add button and the value will be put into a hidden input box and a list element.
     Also, a delete button for deleting this specific value is created and added into the same list element.
@@ -38,4 +39,5 @@
 - Form validation:
   - I set some validation in the form, such as user could not add an empty value into the list. If they click add without putting 
     any value into the input box, a warning message would appear on the screen and requires user to put value into it.
+![download](images/3.png)
 
