@@ -31,7 +31,7 @@
     called list, and I console log this array so you could see the value in an array format in the console of the browser. After that i put this array
     into a input box of the form, yet when user submit it, the array in the input box would be transferring into a string value, so the first one would be
     fits with the requirements of the test.
-    Like the image downhere, the values of the elements is pushed into an array, yet when you submit it, the type of value of this array change into a string, because the input type is text, so therefore it's not okay to just input an array and submit it, the type of value will change.
+    <strong>Like the image downhere, the values of the elements is pushed into an array, yet when you submit it, the type of value of this array change into a string, because the input type is text, so therefore it's not okay to just input an array and submit it, the type of value will change.</strong>
 ![download](images/1.png)
 
 
