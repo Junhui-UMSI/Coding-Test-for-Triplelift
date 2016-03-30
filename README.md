@@ -1,5 +1,5 @@
 # Coding-Test-for-Triplelift
-# This is a code test done by Junhui, all rights reserved.
+## This is a code test done by Junhui, all rights reserved.
 # Requirements 
 - A reusable form using only HTML, CSS and Javascript, Do not use any CSS frameworks or external Javascript libraries.
 - Initial state of component: an empty text input bpx and an ADD button. 
