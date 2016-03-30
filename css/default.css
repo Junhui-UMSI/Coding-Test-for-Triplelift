@@ -72,6 +72,7 @@ input[type="text"]:focus {
   text-align: center;
   margin: 0 auto;
   width: 80%;
+  margin-top: 20px;
 }
 .deletebutton {
   margin-top: 15px;
